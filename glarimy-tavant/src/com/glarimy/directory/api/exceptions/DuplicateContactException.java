@@ -1,0 +1,30 @@
+package com.glarimy.directory.api.exceptions;
+
+public class DuplicateContactException extends DirectoryException {
+
+	public DuplicateContactException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public DuplicateContactException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public DuplicateContactException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public DuplicateContactException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public DuplicateContactException(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+}
